@@ -1,3 +1,4 @@
+_navigateTo("http://sahitest.com/demo/training/");
 _setValue(_textbox("user"), "test");
 _setValue(_password("password"), "secret");
 _click(_submit("Login"));
