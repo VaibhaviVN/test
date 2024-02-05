@@ -12,4 +12,4 @@ _assertEqual("1150", _textbox("total").value);
 _click(_button("Logout"));
 _setValue(_textbox("user"), "test");
 _setValue(_password("password"), "secret");
-_click(_submit("Login"));
+
