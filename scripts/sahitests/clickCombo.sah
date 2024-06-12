@@ -34,4 +34,4 @@ function testCombinationClicks(){
 }
 
 _navigateTo("clickCombo.htm");
-_runUnitTests();
+_runUnitTests(["testCombinationClicks"]);
