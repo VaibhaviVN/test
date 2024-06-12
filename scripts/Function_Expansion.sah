@@ -1,0 +1,14 @@
+function TodayPlusMonths($months) {
+	var datum = new Date();
+	var day = datum.getDate();
+	datum.setMonth(datum.getMonth() + +$months);
+	if (datum.getDate() !== day) {
+		datum.setDate(0);
+	}
+	return datum;
+}
+function TestMethod($Sample,$msg) {
+	var $Sample = "01." + ("0"+ (TodayPlusMonths($Sample).getMonth() + 1)).slice(-2) + "." + TodayPlusMonths($Sample).getFullYear().toString();
+//	var $a= verifyErrorMessage($msg);
+	_assert(1==2);
+}
